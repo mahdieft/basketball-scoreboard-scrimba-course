@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basketball Scoreboard</title>
+
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="bulletin">
+            <h2 class="bulletin-title">Home</h2>
+            <div class="bulletin-score" id="bulletin-score-home">0</div>
+            <div class="bulletin-points">
+                <button class="bulletin-points-point" data-team="home" data-point-value="1">+1</button>
+                <button class="bulletin-points-point" data-team="home" data-point-value="2">+2</button>
+                <button class="bulletin-points-point" data-team="home" data-point-value="3">+3</button>
+            </div>
+        </div>
+
+        <button class="new-game" id="new-game">New Game</button>
+
+        <div class="bulletin">
+            <h2 class="bulletin-title">Guest</h2>
+            <div class="bulletin-score" id="bulletin-score-guest">0</div>
+            <div class="bulletin-points">
+                <button class="bulletin-points-point" data-team="guest" data-point-value="1">+1</button>
+                <button class="bulletin-points-point" data-team="guest" data-point-value="2">+2</button>
+                <button class="bulletin-points-point" data-team="guest" data-point-value="3">+3</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
